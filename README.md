@@ -10,6 +10,7 @@
 * Java Class oluşturursak bu sınıfı Activity den türetmek gerekir ( extends etmek ) 
 * Layout otomatik oluşmadığından layout oluşturulur ve setContentView de tanımlanır.
 
+### Activity Yaşam Döngüsü ( Activity Lifecycle )
 ![Text file](https://www.mobilhanem.com/wp-content/uploads/2017/08/android_activity_lifecycle.jpg)
 
 #### Source - [mobilhanem.com](https://www.mobilhanem.com/android-egitimleri/)
