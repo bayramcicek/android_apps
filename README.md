@@ -1,2 +1,2 @@
 ## Android
-#### Beginner android projects
+#### Beginner android app projects
