@@ -1,6 +1,6 @@
 ## Android
-#### Beginner android app projects
-#### Source - [mobilhanem.com](https://www.mobilhanem.com/android-egitimleri/)
+#### Beginner android apps
+#### Kaynak - [mobilhanem.com](https://www.mobilhanem.com/android-egitimleri/)
 * MainActivity --> Uygulama ilk açıldığında ilk çalışacak olan sınıftır.
 * Her Activity nin bir yaşam döngüsü var
 * onCreate --> Activity başladığında ilk çalışan method
@@ -18,4 +18,4 @@
 * onPause : Activity arka plana alındığında bu metod tetiklenir.
 * onStop : Aktivite arkaplana atıldığında çalışan bir diğer metoddur. Kullanıcı Activitye geri döndüğünde onRestart methodu tetiklenir ve onStart methodundan itibaren yaşam döngüsü devam eder. Eğer kullanıcı geri dönmezse ilgili Activity e ( bu durumda Activity sonlandı veya sistem tarafından kapatıldıysa ) onDestroy methodu tetiklenir.
 * onDestroy : Yaşam döngüsünün en son kısmıdır. Activity sonlandığında tetiklenir.Bellekte uygulama için kullanılan tüm kaynaklarda sonlandırılmış olur.
-#### Source - [mobilhanem.com](https://www.mobilhanem.com/android-egitimleri/)
+#### Kaynak - [mobilhanem.com](https://www.mobilhanem.com/android-egitimleri/)
