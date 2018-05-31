@@ -1,7 +1,3 @@
-## Android - Beginner
-
-#### Yapmaya çalıştığım bazı basit uygulamalar
-
 * MainActivity --> Uygulama ilk açıldığında ilk çalışacak olan sınıftır.
 * Her Activity nin bir yaşam döngüsü var
 * onCreate --> Activity başladığında ilk çalışan method
