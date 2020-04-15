@@ -1,0 +1,16 @@
+yereline kopyala 	-> git clone <link>
+gir 			-> cd ./<repo-adı>
+kontrol 		-> git status 
+tüm loglara bak 	-> git log
+
+silmek istenilen commit sayısının 2 fazlası 	-> git log -n <örn: son 10 commit silinecekse 12 yaz>
+son 12. commitin ID'si 				-> git rebase -i <commit_ID>
+
+önüne çıkan dosyadan silinecek commitleri sil (en üstteki hariç)
+
+kontrol 		-> git status 
+tüm logları control et 	-> git log
+push 			-> git push -f origin master 
+son kontrol 		-> git status
+
+github sayfası yenile
