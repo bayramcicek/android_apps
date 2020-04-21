@@ -1,0 +1,21 @@
+#!/usr/bin/python3.6
+# created by ${USER} on ${MONTH_NAME_SHORT} ${DAY}, ${YEAR} ${TIME}
+
+
+#if (${PACKAGE_NAME} && ${PACKAGE_NAME} != "")package ${PACKAGE_NAME};#end
+#parse("File Header.java")
+
+/**
+ * created by ${USER} on ${MONTH_NAME_SHORT} ${DAY}, ${YEAR} ${TIME}
+ */
+
+public class ${NAME} {
+}
+
+// C11 standard
+// created by ${USER} on ${MONTH_NAME_SHORT} ${DAY}, ${YEAR} ${TIME}
+
+#[[#include]]# <stdio.h>
+#[[#include]]# <stdlib.h>
+
+---
