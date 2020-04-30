@@ -19,3 +19,6 @@ public class ${NAME} {
 #[[#include]]# <stdlib.h>
 
 ---
+
+rm -rf /usr/lib/x86_64-linux-gnu/opera/libffmpeg.so
+cp ./libffmpeg.so /usr/lib/x86_64-linux-gnu/opera/
