@@ -1,0 +1,14 @@
+https://jekyllrb.com/docs/installation/ubuntu/		-> buradakileri uygula
+
+sudo apt install ruby-bundler
+sudo gem install bundler
+bundle install
+
+bundle exec jekyll serve
+
+eğer -> warning: rb_safe_level will be removed in Ruby 3.0  hatası alırsan
+https://github.com/typhoeus/ethon/issues/163
+
+eğer -> Warning: Using the last argument as keyword parameters is deprecated    hatası
+sadece uyarı. geç.
+
