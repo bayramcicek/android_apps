@@ -1,0 +1,10 @@
+$ git config --global user.name "Your Name"
+$ git config --global user.email "youremail@yourdomain.com"
+
+$ git branch <name_of_your_new_branch>
+$ git checkout branch_name      <--- Switch a branch
+
+https://www.atlassian.com/git/tutorials/using-branches/git-merge
+
+$ git remote add <remote-name> <remote-location>
+$ git remote -v               <--- kontrol
