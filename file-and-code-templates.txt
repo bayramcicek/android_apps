@@ -1,7 +1,9 @@
-#!/usr/bin/python3.6
+--python
+#!/usr/bin/python3
 # created by ${USER} on ${MONTH_NAME_SHORT} ${DAY}, ${YEAR} ${TIME}
 
 
+--java
 #if (${PACKAGE_NAME} && ${PACKAGE_NAME} != "")package ${PACKAGE_NAME};#end
 #parse("File Header.java")
 
@@ -12,13 +14,15 @@
 public class ${NAME} {
 }
 
+
+---c
 // C11 standard
 // created by ${USER} on ${MONTH_NAME_SHORT} ${DAY}, ${YEAR} ${TIME}
 
 #[[#include]]# <stdio.h>
 #[[#include]]# <stdlib.h>
 
----
 
+---opera
 rm -rf /usr/lib/x86_64-linux-gnu/opera/libffmpeg.so
 cp ./libffmpeg.so /usr/lib/x86_64-linux-gnu/opera/
