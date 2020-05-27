@@ -6,5 +6,5 @@ $ git checkout branch_name      <--- Switch a branch
 
 https://www.atlassian.com/git/tutorials/using-branches/git-merge
 
-$ git remote add <remote-name> <remote-location>
+$ git remote add origin <link>.git
 $ git remote -v               <--- kontrol
