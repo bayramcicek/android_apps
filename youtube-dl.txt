@@ -1,1 +1,8 @@
-youtube-dl -x --audio-format mp3 "https://www.youtube.com/watch?v=J2X5mJ3HDYE"
+--mp3:
+~ >>> youtube-dl -x --audio-format mp3 "https://www.youtube.com/watch?v=J2X5mJ3HDYE"
+
+--available formats:
+~ >>> youtube-dl -F "https://www.youtube.com/watch?v=J2X5mJ3HDYE"
+
+--mp4
+~ >>> youtube-dl -f mp4 "https://www.youtube.com/watch?v=J2X5mJ3HDYE"
