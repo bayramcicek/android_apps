@@ -1,0 +1,3 @@
+~ >>> groups
+~ >>> sudo chgrp <username> <file>
+~ >>> sudo chmod g+w <username> <file>
