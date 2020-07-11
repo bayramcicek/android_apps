@@ -1,0 +1,2 @@
+show sidebar -> ctrl+k+b
+show menu -> ctrl+shift+p (type) vmen
