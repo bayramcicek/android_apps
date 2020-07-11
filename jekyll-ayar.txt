@@ -5,9 +5,8 @@ sudo pacman -S ruby base-devel
 export PATH="/home/cicek/.gem/ruby/2.7.0/bin:${PATH}"
 
 --add the end of the file ./bash_profile
-PATH=/home/cicek/.gem/ruby/2.7.0/bin:/home/cicek/.local/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/var/
+PATH=/home/cicek/.gem/ruby/2.7.0/bin:/home/cicek/.local/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/var/lib/snapd/snap/bin
 
-lib/snapd/snap/bin
 gem install jekyll
 sudo bundle install
 bundle exec jekyll serve                                                                                                                                           
