@@ -23,6 +23,14 @@ public class ${NAME} {
 #[[#include]]# <stdlib.h>
 
 
+int main(int argc, char **argv) {
+
+    printf("Hello world\n");
+    return 0;
+}
+
+
+
 ---opera
 rm -rf /usr/lib/x86_64-linux-gnu/opera/libffmpeg.so
 cp ./libffmpeg.so /usr/lib/x86_64-linux-gnu/opera/
