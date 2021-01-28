@@ -1,9 +1,9 @@
---python
+-- python
 #!/usr/bin/python3
 # created by ${USER} on ${MONTH_NAME_SHORT} ${DAY}, ${YEAR} ${TIME}
 
 
---java
+-- java
 #if (${PACKAGE_NAME} && ${PACKAGE_NAME} != "")package ${PACKAGE_NAME};#end
 #parse("File Header.java")
 
@@ -15,7 +15,7 @@ public class ${NAME} {
 }
 
 
----c
+--- c
 // C11 standard
 // created by ${USER} on ${MONTH_NAME_SHORT} ${DAY}, ${YEAR} ${TIME}
 
@@ -30,6 +30,20 @@ int main(int argc, char **argv) {
 }
 
 
+-- C++
+// C11 standard
+// created by ${USER} on ${MONTH_NAME_SHORT} ${DAY}, ${YEAR} ${TIME}
+
+#[[#include]]# <iostream>
+#[[#include]]# <string>
+
+using namespace std;
+
+int main(int argc, char **argv) {
+
+    cout << "Hello world\n";
+    return 0;
+}
 
 ---opera
 rm -rf /usr/lib/x86_64-linux-gnu/opera/libffmpeg.so
