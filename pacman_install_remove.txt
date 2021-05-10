@@ -1,0 +1,5 @@
+install:
+$ sudo pacman -S PACKAGENAME
+
+remove:
+$ sudo pacman -R PACKAGENAME
