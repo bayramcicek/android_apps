@@ -6,9 +6,10 @@ sudo pacman -S ruby base-devel
 gem install jekyll
 gem install bundle
 bundle update
+bundle update --bundler 
 bundle add webrick
 
-export PATH="/home/cicek/.local/share/gem/ruby/3.0.0/bin"
+export PATH=$PATH:/home/cicek/.local/share/gem/ruby/3.0.0/bin
 
 --add the end of the file ./bash_profile
 PATH=/home/cicek/.gem/ruby/2.7.0/bin:/home/cicek/.local/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/var/lib/snapd/snap/bin
